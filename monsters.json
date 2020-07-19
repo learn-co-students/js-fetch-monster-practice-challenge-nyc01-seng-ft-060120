@@ -6005,6 +6005,49 @@
       "age": 13,
       "description": "131313",
       "id": 1001
+    },
+    {
+      "name": {},
+      "age": {},
+      "id": 1002
+    },
+    {
+      "id": 1003
+    },
+    {
+      "name": "Apa",
+      "age": "567",
+      "id": 1004
+    },
+    {
+      "name": "momo",
+      "age": "4",
+      "bio": "flying lemur",
+      "id": 1005
+    },
+    {
+      "name": "hellbender",
+      "age": "2",
+      "bio": "slimy long boi",
+      "id": 1006
+    },
+    {
+      "name": "hellbender",
+      "age": "2",
+      "bio": "slimy long boi",
+      "id": 1007
+    },
+    {
+      "name": "xena",
+      "age": "56",
+      "bio": "warrior princess",
+      "id": 1008
+    },
+    {
+      "name": "xena",
+      "age": "56",
+      "description": "warrior princess",
+      "id": 1009
     }
   ]
 }
