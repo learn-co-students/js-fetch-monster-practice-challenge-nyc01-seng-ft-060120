@@ -83,3 +83,18 @@ headers:
 data:
 { name: string, age: number, description: string }
 ```
+
+
+
+NOTES
+/////////////////////////////////////////////////////////////////
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
+document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+});
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
