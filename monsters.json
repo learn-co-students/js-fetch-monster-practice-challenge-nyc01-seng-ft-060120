@@ -6005,6 +6005,24 @@
       "age": 13,
       "description": "131313",
       "id": 1001
+    },
+    {
+      "name": "Pikachu ",
+      "age": 26,
+      "description": "Electric mouse species of pokemon",
+      "id": 1002
+    },
+    {
+      "name": "ike ",
+      "age": 37,
+      "description": "Human but a monster as well ",
+      "id": 1003
+    },
+    {
+      "name": "Pikachu ",
+      "age": "26",
+      "description": "Electric Mouse",
+      "id": 1004
     }
   ]
 }
