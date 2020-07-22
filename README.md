@@ -22,12 +22,51 @@ json-server monsters.json
 
 ## Objectives
 
-- When the page loads, show the first 50 monsters. Each monster's name, age, and
-  description should be shown.
+- When the page loads, show the first 50 monsters. Each monster's name, age, and description should be shown.
+
+  √* Make a GET fetch request 
+
+  √* Make a renderMonster function and pass in monster 
+    √- select monster container 
+    √- create name, age, description 
+    √- append all these tags as children for monster-container 
+  
+  √* Make a renderMonsters function and iterate through it and pass a monster and pass it again in the renderMonster function 
+
+  
+
+
+
 - Above your list of monsters, you should have a form to create a new monster.
   You should have fields for name, age, and description, and a 'Create Monster
   Button'. When you click the button, the monster should be added to the list
   and saved in the API.
+
+  **DOM JAZZ**
+    √* create a form 
+      √* select create-monster to add ur form there 
+      √* create a form tag 
+      √* in the form tag make labels and inputs for 
+       √ -name
+       √ -age
+       √ -description 
+      √* create an add monster button  
+
+  **DATABASE JAZZ**
+    * create a post request 
+      √- make a submit handler function 
+       √ - make an addEventListener for submit 
+       √ - add e.preventDefault()
+       √ - get the target 
+       √ - set const to the attributes and then set them equal to the value of the target 
+       √ - call a reset to the button 
+       √ - Do the whole ass fetch POST request 
+
+
+
+
+
+
 - At the end of the list of monsters, show a button. When clicked, the button
   should load the next 50 monsters and show them.
 
